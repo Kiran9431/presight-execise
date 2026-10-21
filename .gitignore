@@ -21,6 +21,11 @@ scripts/
 .env.test.local
 .env.production.local
 
+# database
+*.db
+*.db-shm
+*.db-wal
+
 link.sh
 start.sh
 npm-debug.log*
